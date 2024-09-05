@@ -4,7 +4,7 @@ import { Intro } from './components/HeadingPage/intro';
 function App() {
   return (
     <div className="App">
-      <Intro name='Henry'/>
+      <Intro name='Josue'/>
     </div>
   );
 }
