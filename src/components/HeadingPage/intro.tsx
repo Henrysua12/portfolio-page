@@ -14,7 +14,7 @@ const StyledButton = styled(Button)(({ theme }) => ({
 }));
 
 export const Intro = ({ name }: IntroProps) => (
-  <div className="flex flex-col justify-center items-center h-screen bg-gray-100">
+  <div className="flex flex-col justify-center items-center h-screen bg-white-smoke p-4 ">
     <div className="text-center mb-8">
       <h2 className="text-4xl font-bold mb-4">Hi, my name is {name}</h2>
       <h2 className="text-2xl font-semibold">I'm a Full Stack Software Engineer</h2>
