@@ -1,5 +1,6 @@
 import React from "react";
 import './index.css';
+import img from './me.jpg'
 
 type AboutMeProps = {
     aboutMe: string;
@@ -9,7 +10,7 @@ type AboutMeProps = {
 
   <div className="grid grid-cols-2 h-screen items-center p-4 bg-white-smoke">
     <div className="flex justify-center">
-      <img src="./me.jpg" alt="my image" className="w-3/4 h-auto object-cover" />
+      <img src={img} alt="my image" className="w-3/4 h-auto object-cover" />
     </div>
 
     <div className="text-right">
