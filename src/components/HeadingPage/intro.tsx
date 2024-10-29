@@ -30,4 +30,3 @@ export const Intro = ({ name }: IntroProps) => (
   </div>
 );
 
-// flex and flex-col are containers that are common patterns and 
